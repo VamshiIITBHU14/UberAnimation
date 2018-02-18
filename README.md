@@ -4,11 +4,11 @@ This is an attempt to mimic of the animation Uber and Facebook shows up as a con
 
 Usage:
 
-a) Using this in your app is real simple. Download the code, drag and drop VKEmitter.Swift to your project.<br />
+a) Using this in your app is real simple. Download the code, drag and drop **VKEmitter.Swift** to your project.<br />
 b) Then write the below snippet when you want the animation to pop-up.
 
 `let imageNamesArray = ["star1", "star2"]
-        VKEmitter().emitParticles(superView: view, imageNamesArray: imageNamesArray, stopAfterSeconds: 20.0, type: 1)`
+  VKEmitter().emitParticles(superView: view, imageNamesArray: imageNamesArray, stopAfterSeconds: 20.0, type: 1)`
         
  
 **superView** parameter is the **UIView** in which you want the animation to pop-up.<br />
