@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
     @IBAction func promoClicked(_ sender: Any) {
         let imageNamesArray = ["star1", "star2"]
-        VKEmitter().emitParticles(superView: view, imageNamesArray: imageNamesArray, stopAfterSeconds: 20.0, type: 1)
+        VKEmitter().emitParticles(superView: view, imageNamesArray: imageNamesArray, stopAfterSeconds: 2.0, type: 1)
     }
     
 }
