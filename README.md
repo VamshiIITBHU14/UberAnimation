@@ -2,14 +2,21 @@
 Heyaa!
 This is an attempt to mimic of the animation Uber and Facebook shows up as a congratulatory popup. <br /> Looking at the attached GIF will give you a better idea of what thsi project covers.
 
-Usage:
-
+Installation:
+1) Manual:
 a) Using this in your app is real simple. Download the code, drag and drop **VKEmitter.Swift** to your project.<br />
 b) Then write the below snippet when you want the animation to pop-up.
 
 ```let imageNamesArray = ["star1", "star2"]``` <br />
  ```VKEmitter().emitParticles(superView: view, imageNamesArray: imageNamesArray, stopAfterSeconds: 2.0, type: 1)```
         
+2) Cocoapods:
+You can add pod 'VKUberAnimation', '~> 0.1' similar to the following to your Podfile:
+
+```target 'YourApp' do```
+  ```pod 'VKUberAnimation', '~> 0.1'```
+```end```
+Then run a pod install inside your terminal.
  
 **superView** parameter is the **UIView** in which you want the animation to pop-up.<br />
 **imageNamesArray** is the paramter of type **[String]** where you pass the names of images you wish to show up in the animaton.<br />
